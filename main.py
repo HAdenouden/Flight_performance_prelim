@@ -18,6 +18,7 @@ q_cruise = 0.5 * cruise.density * V_cruise**2
 #constants related to drag
 e0 = 1.78*(1-0.045*AR**0.68)-0.64 #relation from "small unmanned fixed-wing a/c design: a practical approach
 k = 1 / (np.pi * AR * e0) #drag polar coefficient
+print("oswald:", e0 )
 print("Approach speed: ", V_approach)
 print("Stall speed at approach:", V_stall_approach)
 
